@@ -83,6 +83,7 @@ class Result:
             "n_total": self.n_total,
             "actual_power": self.actual_power,
             "critical_t": self.critical,
+            "critical": self.critical,
             "df": self.df,
             "ncp": self.ncp,
         }

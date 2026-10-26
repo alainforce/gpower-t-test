@@ -133,15 +133,15 @@ Sixty-five fresh G*Power post-hoc observations are in `docs/posthoc-observations
 
 ### [REA-012] Compromise mode
 
-Fifty fresh observations, including both tails and unequal groups, are in `evidence/observations/compromise-observations.jsonl`. The section-9 compromise vector matches `ncp=3.3166248,critical_t=1.6606859,df=174,alpha=.0492887,beta=.0492887,power=.9507113`. Formula details beyond observed outputs are inferred.
+Fifty fresh observations, including both tails and unequal groups, are in `docs/compromise-observations.jsonl`. The section-9 compromise vector matches `ncp=3.3166248,critical_t=1.6606859,df=174,alpha=.0492887,beta=.0492887,power=.9507113`. Formula details beyond observed outputs are inferred.
 
 ### [REA-013] Criterion mode
 
-Fifty fresh observations, including both tails and unequal groups, are in `evidence/observations/criterion-observations.jsonl`. The section-9 criterion vector matches `ncp=3.3166248,critical_t=1.6676050,df=174,alpha=.0485965`. Remaining inverse-solver details are inferred.
+Fifty fresh observations, including both tails and unequal groups, are in `docs/criterion-observations.jsonl`. The section-9 criterion vector matches `ncp=3.3166248,critical_t=1.6676050,df=174,alpha=.0485965`. Remaining inverse-solver details are inferred.
 
 ### [REA-014] Sensitivity mode
 
-Fifty fresh observations, including both tails and unequal groups, are in `evidence/observations/sensitivity-observations.jsonl`. The section-9 sensitivity vector matches `ncp=3.3025887,critical_t=1.6536580,df=174,d=.4978840`. Extreme `?` displays are observed UI no-result behavior; the exact failure boundary is inferred.
+Fifty fresh observations, including both tails and unequal groups, are in `docs/sensitivity-observations.jsonl`. The section-9 sensitivity vector matches `ncp=3.3025887,critical_t=1.6536580,df=174,d=.4978840`. Extreme `?` displays are observed UI no-result behavior; the exact failure boundary is inferred.
 
 ### Contract error table
 
@@ -150,6 +150,90 @@ The contract defines `MISSING_PARAM`, `UNKNOWN_PARAM`, `INVALID_VALUE`, `OUT_OF_
 ### Held-out separation
 
 `held_out_final.jsonl` contains 30 fresh a-priori rows, 20 fresh post-hoc rows, and 15 live error probes. It remains only in RE. Only `SPEC.md`, `golden_vectors.jsonl`, and non-held-out post-hoc/bonus JSONL rows are copied to `RE-impl`.
+
+## 16. Gherkin acceptance criteria
+
+```gherkin
+Feature: t2-indep contract behavior
+
+  Scenario: A-priori searches even total sample sizes
+    Given test is "t2-indep" and mode is "a-priori"
+    And tails, d, alpha, power, and ratio are supplied with contract-valid values
+    When the calculation is requested
+    Then candidate n_total starts at 4
+    And candidate n_total advances by 2
+    And the first passing candidate is selected using the unrounded ratio shares
+    And the result contains integer n1, n2, n_total, and df fields
+
+  Scenario: A-priori allocation preserves the selected total
+    Given a selected a-priori n_total and ratio
+    When group sizes are displayed
+    Then n1 is the nearest integer to n_total/(1+ratio)
+    And n2 is n_total-n1
+    And n1+n2 equals n_total exactly
+
+  Scenario: Exact half-share allocation rounds group 1 upward
+    Given the group-1 ratio share is exactly x.5
+    When integer group sizes are displayed
+    Then group 1 is rounded upward
+    And group 2 is the total-preserving remainder
+
+  Scenario: Post-hoc returns achieved power fields
+    Given mode is "post-hoc" and tails, d, alpha, n1, and n2 are supplied
+    When the calculation is requested
+    Then the result contains ncp, critical_t, df, and power
+    And df equals n1+n2-2
+
+  Scenario: Bonus modes use their contract fields
+    Given test is "t2-indep"
+    When mode is "compromise", "criterion", or "sensitivity"
+    Then only that mode's contract input fields are accepted
+    And compromise returns alpha, beta, and power
+    And criterion returns alpha
+    And sensitivity returns d
+
+  Scenario: Noncentral t definitions
+    Given a successful t2-indep result with n1, n2, and d
+    When numeric outputs are checked
+    Then ncp equals d*sqrt(n1*n2/(n1+n2))
+    And df equals n1+n2-2
+    And critical_t uses the selected one- or two-tail alpha rule
+
+  Scenario: Contract range validation
+    Given tails is not 1 or 2, or alpha/power is not strictly between 0 and 1
+    Or d, ratio, or beta_alpha_ratio is not positive
+    Or n1 or n2 is less than 2
+    When the CLI is called
+    Then it exits nonzero
+    And it returns the corresponding OUT_OF_RANGE error code
+
+  Scenario: Inconsistent alpha and power
+    Given power is less than or equal to alpha
+    When an a-priori calculation is requested
+    Then the CLI exits nonzero
+    And the error code is INCONSISTENT
+    And the field is power
+
+  Scenario: Missing or irrelevant fields
+    Given a required mode field is missing or a field is supplied to an unrelated mode
+    When the CLI is called
+    Then it exits nonzero
+    And the error code is MISSING_PARAM or UNKNOWN_PARAM respectively
+
+  Scenario: Reference refuses an extreme but contract-positive effect size
+    Given d is greater than 20 and otherwise satisfies the contract's d > 0 rule
+    When the reference-compatible calculation is requested
+    Then the CLI returns a nonzero NO_SOLUTION error
+    And the error field is d
+    And the observed reference message is preserved as the human-readable error
+
+  Scenario: JSONL output and comparison types
+    Given a successful request
+    When the result is serialized
+    Then it is one JSON object with contract field names
+    And integer fields are JSON integers
+    And floating fields retain full numeric precision
+```
 
 ### [REA-015] Post-hoc corrections and the d boundary
 

@@ -1,4 +1,5 @@
 *.exe
+GPower*.exe
 held_out*
 **pycache**/
 *.pyc
