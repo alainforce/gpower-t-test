@@ -1,0 +1,652 @@
+[
+  {
+    "tails": 1,
+    "d": 0.2,
+    "power": 0.8,
+    "n1": 2,
+    "n2": 3,
+    "observed": {
+      "ncp": "0.2190890",
+      "critical_t": "-0.7103566",
+      "df": "3",
+      "alpha": "0.7356375"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 0.2,
+    "power": 0.9,
+    "n1": 10,
+    "n2": 20,
+    "observed": {
+      "ncp": "0.5163978",
+      "critical_t": "-0.7789208",
+      "df": "28",
+      "alpha": "0.7787200"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 0.2,
+    "power": 0.95,
+    "n1": 30,
+    "n2": 50,
+    "observed": {
+      "ncp": "0.8660254",
+      "critical_t": "-0.7845646",
+      "df": "78",
+      "alpha": "0.7824574"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 0.2,
+    "power": 0.99,
+    "n1": 88,
+    "n2": 88,
+    "observed": {
+      "ncp": "1.3266499",
+      "critical_t": "-1.0044993",
+      "df": "174",
+      "alpha": "0.8417336"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 0.2,
+    "power": 0.85,
+    "n1": 100,
+    "n2": 250,
+    "observed": {
+      "ncp": "1.6903085",
+      "critical_t": "0.6540266",
+      "df": "348",
+      "alpha": "0.2567633"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 0.5,
+    "power": 0.8,
+    "n1": 2,
+    "n2": 3,
+    "observed": {
+      "ncp": "0.5477226",
+      "critical_t": "-0.3263730",
+      "df": "3",
+      "alpha": "0.6172075"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 0.5,
+    "power": 0.9,
+    "n1": 10,
+    "n2": 20,
+    "observed": {
+      "ncp": "1.2909944",
+      "critical_t": "0.009526516",
+      "df": "28",
+      "alpha": "0.4962333"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 0.5,
+    "power": 0.95,
+    "n1": 30,
+    "n2": 50,
+    "observed": {
+      "ncp": "2.1650635",
+      "critical_t": "0.5204508",
+      "df": "78",
+      "alpha": "0.3021118"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 0.5,
+    "power": 0.99,
+    "n1": 88,
+    "n2": 88,
+    "observed": {
+      "ncp": "3.3166248",
+      "critical_t": "0.9884316",
+      "df": "174",
+      "alpha": "0.1621569"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 0.5,
+    "power": 0.85,
+    "n1": 100,
+    "n2": 250,
+    "observed": {
+      "ncp": "4.2257713",
+      "critical_t": "3.1841076",
+      "df": "348",
+      "alpha": "0.0007915289"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 0.8,
+    "power": 0.8,
+    "n1": 2,
+    "n2": 3,
+    "observed": {
+      "ncp": "0.8763561",
+      "critical_t": "0.0376037",
+      "df": "3",
+      "alpha": "0.4861830"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 0.8,
+    "power": 0.9,
+    "n1": 10,
+    "n2": 20,
+    "observed": {
+      "ncp": "2.0655911",
+      "critical_t": "0.7840397",
+      "df": "28",
+      "alpha": "0.2197997"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 0.8,
+    "power": 0.95,
+    "n1": 30,
+    "n2": 50,
+    "observed": {
+      "ncp": "3.4641016",
+      "critical_t": "1.8078785",
+      "df": "78",
+      "alpha": "0.0372401"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 0.8,
+    "power": 0.99,
+    "n1": 88,
+    "n2": 88,
+    "observed": {
+      "ncp": "5.3065997",
+      "critical_t": "2.9553706",
+      "df": "174",
+      "alpha": "0.001777961"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 0.8,
+    "power": 0.85,
+    "n1": 100,
+    "n2": 250,
+    "observed": {
+      "ncp": "6.7612340",
+      "critical_t": "5.7049540",
+      "df": "348",
+      "alpha": "1.245139e-08"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 1.2,
+    "power": 0.8,
+    "n1": 2,
+    "n2": 3,
+    "observed": {
+      "ncp": "1.3145341",
+      "critical_t": "0.4966162",
+      "df": "3",
+      "alpha": "0.3267848"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 1.2,
+    "power": 0.9,
+    "n1": 10,
+    "n2": 20,
+    "observed": {
+      "ncp": "3.0983867",
+      "critical_t": "1.7965249",
+      "df": "28",
+      "alpha": "0.0416042"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 1.2,
+    "power": 0.95,
+    "n1": 30,
+    "n2": 50,
+    "observed": {
+      "ncp": "5.1961524",
+      "critical_t": "3.4989075",
+      "df": "78",
+      "alpha": "0.000387567"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 1.2,
+    "power": 0.99,
+    "n1": 88,
+    "n2": 88,
+    "observed": {
+      "ncp": "7.9598995",
+      "critical_t": "5.5402704",
+      "df": "174",
+      "alpha": "5.502301e-08"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 1.2,
+    "power": 0.85,
+    "n1": 100,
+    "n2": 250,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 2.0,
+    "power": 0.8,
+    "n1": 2,
+    "n2": 3,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 2.0,
+    "power": 0.9,
+    "n1": 10,
+    "n2": 20,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 2.0,
+    "power": 0.95,
+    "n1": 30,
+    "n2": 50,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 2.0,
+    "power": 0.99,
+    "n1": 88,
+    "n2": 88,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 1,
+    "d": 2.0,
+    "power": 0.85,
+    "n1": 100,
+    "n2": 250,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 0.2,
+    "power": 0.8,
+    "n1": 2,
+    "n2": 3,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 0.2,
+    "power": 0.9,
+    "n1": 10,
+    "n2": 20,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 0.2,
+    "power": 0.95,
+    "n1": 30,
+    "n2": 50,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 0.2,
+    "power": 0.99,
+    "n1": 88,
+    "n2": 88,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 0.2,
+    "power": 0.85,
+    "n1": 100,
+    "n2": 250,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 0.5,
+    "power": 0.8,
+    "n1": 2,
+    "n2": 3,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 0.5,
+    "power": 0.9,
+    "n1": 10,
+    "n2": 20,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 0.5,
+    "power": 0.95,
+    "n1": 30,
+    "n2": 50,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 0.5,
+    "power": 0.99,
+    "n1": 88,
+    "n2": 88,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 0.5,
+    "power": 0.85,
+    "n1": 100,
+    "n2": 250,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 0.8,
+    "power": 0.8,
+    "n1": 2,
+    "n2": 3,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 0.8,
+    "power": 0.9,
+    "n1": 10,
+    "n2": 20,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 0.8,
+    "power": 0.95,
+    "n1": 30,
+    "n2": 50,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 0.8,
+    "power": 0.99,
+    "n1": 88,
+    "n2": 88,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 0.8,
+    "power": 0.85,
+    "n1": 100,
+    "n2": 250,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 1.2,
+    "power": 0.8,
+    "n1": 2,
+    "n2": 3,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 1.2,
+    "power": 0.9,
+    "n1": 10,
+    "n2": 20,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 1.2,
+    "power": 0.95,
+    "n1": 30,
+    "n2": 50,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 1.2,
+    "power": 0.99,
+    "n1": 88,
+    "n2": 88,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 1.2,
+    "power": 0.85,
+    "n1": 100,
+    "n2": 250,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 2.0,
+    "power": 0.8,
+    "n1": 2,
+    "n2": 3,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 2.0,
+    "power": 0.9,
+    "n1": 10,
+    "n2": 20,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 2.0,
+    "power": 0.95,
+    "n1": 30,
+    "n2": 50,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 2.0,
+    "power": 0.99,
+    "n1": 88,
+    "n2": 88,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  },
+  {
+    "tails": 2,
+    "d": 2.0,
+    "power": 0.85,
+    "n1": 100,
+    "n2": 250,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "alpha": "?"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+*.exe
+held_out*
+**pycache**/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+logs/
+private notes/
+private_notes/

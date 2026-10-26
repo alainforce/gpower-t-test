@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gpower-clone"
+version = "1.0.0"
+description = "Clean-room independent two-sample t-test power engine"
+requires-python = ">=3.11"
+dependencies = ["scipy>=1.10"]
+
+[project.scripts]
+gpower-clone = "cli.main:main"
+
+[tool.setuptools]
+packages = ["cli", "engine", "mcp_server"]
+
+[project.optional-dependencies]
+test = ["mcp>=2.3.0"]

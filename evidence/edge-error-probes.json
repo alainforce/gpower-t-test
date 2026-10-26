@@ -1,0 +1,1110 @@
+[
+  {
+    "label": "power-boundary",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.01,
+    "ratio": 1,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Power must be greater than or equal to alpha."
+  },
+  {
+    "label": "power-boundary",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.05,
+    "ratio": 1,
+    "observed": {
+      "ncp": "0.5000000",
+      "critical_t": "2.9199856",
+      "df": "2",
+      "n1": "2",
+      "n2": "2",
+      "n_total": "4",
+      "actual_power": "0.0994117"
+    },
+    "status": "result"
+  },
+  {
+    "label": "power-boundary",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.050001,
+    "ratio": 1,
+    "observed": {
+      "ncp": "0.5000000",
+      "critical_t": "2.9199856",
+      "df": "2",
+      "n1": "2",
+      "n2": "2",
+      "n_total": "4",
+      "actual_power": "0.0994117"
+    },
+    "status": "result"
+  },
+  {
+    "label": "power-boundary",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.051,
+    "ratio": 1,
+    "observed": {
+      "ncp": "0.5000000",
+      "critical_t": "2.9199856",
+      "df": "2",
+      "n1": "2",
+      "n2": "2",
+      "n_total": "4",
+      "actual_power": "0.0994117"
+    },
+    "status": "result"
+  },
+  {
+    "label": "power-boundary",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.999,
+    "ratio": 1,
+    "observed": {
+      "ncp": "4.7565744",
+      "critical_t": "1.6490973",
+      "df": "360",
+      "n1": "181",
+      "n2": "181",
+      "n_total": "362",
+      "actual_power": "0.9990414"
+    },
+    "status": "result"
+  },
+  {
+    "label": "power-boundary",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.999999,
+    "ratio": 1,
+    "observed": {
+      "ncp": "6.4128777",
+      "critical_t": "1.6471797",
+      "df": "656",
+      "n1": "329",
+      "n2": "329",
+      "n_total": "658",
+      "actual_power": "0.9999990"
+    },
+    "status": "result"
+  },
+  {
+    "label": "alpha-range",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 1e-06,
+    "power": 0.8,
+    "ratio": 1,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "n1": "?",
+      "n2": "?",
+      "n_total": "?",
+      "actual_power": "?"
+    },
+    "status": "result"
+  },
+  {
+    "label": "alpha-range",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.0001,
+    "power": 0.8,
+    "ratio": 1,
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "n1": "?",
+      "n2": "?",
+      "n_total": "?",
+      "actual_power": "?"
+    },
+    "status": "result"
+  },
+  {
+    "label": "alpha-range",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.01,
+    "power": 0.8,
+    "ratio": 1,
+    "observed": {
+      "ncp": "3.4641016",
+      "critical_t": "2.6019524",
+      "df": "190",
+      "n1": "96",
+      "n2": "96",
+      "n_total": "192",
+      "actual_power": "0.8045473"
+    },
+    "status": "result"
+  },
+  {
+    "label": "alpha-range",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.5,
+    "power": 0.8,
+    "ratio": 1,
+    "observed": {
+      "ncp": "1.5000000",
+      "critical_t": "0.6817741",
+      "df": "34",
+      "n1": "18",
+      "n2": "18",
+      "n_total": "36",
+      "actual_power": "0.8090421"
+    },
+    "status": "result"
+  },
+  {
+    "label": "alpha-range",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.999999,
+    "power": 0.8,
+    "ratio": 1,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Power must be greater than or equal to alpha."
+  },
+  {
+    "label": "effect-range",
+    "tails": 1,
+    "d": 0.001,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 1,
+    "observed": {
+      "ncp": "2.4864750",
+      "critical_t": "1.6448537",
+      "df": "24730230",
+      "n1": "12365116",
+      "n2": "12365116",
+      "n_total": "24730232",
+      "actual_power": "0.8000000"
+    },
+    "status": "result"
+  },
+  {
+    "label": "effect-range",
+    "tails": 1,
+    "d": 0.01,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 1,
+    "observed": {
+      "ncp": "2.4864835",
+      "critical_t": "1.6448598",
+      "df": "247302",
+      "n1": "123652",
+      "n2": "123652",
+      "n_total": "247304",
+      "actual_power": "0.8000005"
+    },
+    "status": "result"
+  },
+  {
+    "label": "effect-range",
+    "tails": 1,
+    "d": 0.1,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 1,
+    "observed": {
+      "ncp": "2.4879711",
+      "critical_t": "1.6454698",
+      "df": "2474",
+      "n1": "1238",
+      "n2": "1238",
+      "n_total": "2476",
+      "actual_power": "0.8002283"
+    },
+    "status": "result"
+  },
+  {
+    "label": "effect-range",
+    "tails": 1,
+    "d": 5,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 1,
+    "observed": {
+      "ncp": "5.0000000",
+      "critical_t": "2.9199856",
+      "df": "2",
+      "n1": "2",
+      "n2": "2",
+      "n_total": "4",
+      "actual_power": "0.9162870"
+    },
+    "status": "result"
+  },
+  {
+    "label": "effect-range",
+    "tails": 1,
+    "d": 10,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 1,
+    "observed": {
+      "ncp": "10.0000000",
+      "critical_t": "2.9199856",
+      "df": "2",
+      "n1": "2",
+      "n2": "2",
+      "n_total": "4",
+      "actual_power": "0.9999326"
+    },
+    "status": "result"
+  },
+  {
+    "label": "effect-range",
+    "tails": 1,
+    "d": 100,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 1,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Effect size d is outside the admissible range (-20, 20)."
+  },
+  {
+    "label": "ratio-range",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 0.01,
+    "observed": {
+      "ncp": "2.8142761",
+      "critical_t": "1.9607047",
+      "df": "3204",
+      "n1": "3174",
+      "n2": "32",
+      "n_total": "3206",
+      "actual_power": "0.8033011"
+    },
+    "status": "result"
+  },
+  {
+    "label": "ratio-range",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 0.1,
+    "observed": {
+      "ncp": "2.8192727",
+      "critical_t": "1.9662264",
+      "df": "380",
+      "n1": "347",
+      "n2": "35",
+      "n_total": "382",
+      "actual_power": "0.8029429"
+    },
+    "status": "result"
+  },
+  {
+    "label": "ratio-range",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 0.3333333333,
+    "observed": {
+      "ncp": "2.8117401",
+      "critical_t": "1.9741852",
+      "df": "168",
+      "n1": "128",
+      "n2": "42",
+      "n_total": "170",
+      "actual_power": "0.7983302"
+    },
+    "status": "result"
+  },
+  {
+    "label": "ratio-range",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 0.5,
+    "observed": {
+      "ncp": "2.8284271",
+      "critical_t": "1.9768110",
+      "df": "142",
+      "n1": "96",
+      "n2": "48",
+      "n_total": "144",
+      "actual_power": "0.8021395"
+    },
+    "status": "result"
+  },
+  {
+    "label": "ratio-range",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 1,
+    "observed": {
+      "ncp": "2.8284271",
+      "critical_t": "1.9789706",
+      "df": "126",
+      "n1": "64",
+      "n2": "64",
+      "n_total": "128",
+      "actual_power": "0.8014596"
+    },
+    "status": "result"
+  },
+  {
+    "label": "ratio-range",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 2,
+    "observed": {
+      "ncp": "2.8284271",
+      "critical_t": "1.9768110",
+      "df": "142",
+      "n1": "48",
+      "n2": "96",
+      "n_total": "144",
+      "actual_power": "0.8021395"
+    },
+    "status": "result"
+  },
+  {
+    "label": "ratio-range",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 3,
+    "observed": {
+      "ncp": "2.8338811",
+      "critical_t": "1.9741852",
+      "df": "168",
+      "n1": "43",
+      "n2": "127",
+      "n_total": "170",
+      "actual_power": "0.8044668"
+    },
+    "status": "result"
+  },
+  {
+    "label": "ratio-range",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 100,
+    "observed": {
+      "ncp": "2.8142761",
+      "critical_t": "1.9607047",
+      "df": "3204",
+      "n1": "32",
+      "n2": "3174",
+      "n_total": "3206",
+      "actual_power": "0.8033011"
+    },
+    "status": "result"
+  },
+  {
+    "label": "small-ratio",
+    "tails": 1,
+    "d": 0.2,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 0.01,
+    "observed": {
+      "ncp": "2.4856131",
+      "critical_t": "1.6449503",
+      "df": "15768",
+      "n1": "15614",
+      "n2": "156",
+      "n_total": "15770",
+      "actual_power": "0.7997288"
+    },
+    "status": "result"
+  },
+  {
+    "label": "large-ratio",
+    "tails": 1,
+    "d": 0.2,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 100,
+    "observed": {
+      "ncp": "2.4856131",
+      "critical_t": "1.6449503",
+      "df": "15768",
+      "n1": "156",
+      "n2": "15614",
+      "n_total": "15770",
+      "actual_power": "0.7997288"
+    },
+    "status": "result"
+  },
+  {
+    "label": "near-one",
+    "tails": 2,
+    "d": 0.01,
+    "alpha": 0.001,
+    "power": 0.999,
+    "ratio": 1,
+    "observed": {
+      "ncp": "6.3807719",
+      "critical_t": "3.2905327",
+      "df": "1628568",
+      "n1": "814285",
+      "n2": "814285",
+      "n_total": "1628570",
+      "actual_power": "0.9990000"
+    },
+    "status": "result"
+  },
+  {
+    "label": "near-one-large-d",
+    "tails": 1,
+    "d": 100,
+    "alpha": 0.999,
+    "power": 0.999999,
+    "ratio": 1,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Effect size d is outside the admissible range (-20, 20)."
+  },
+  {
+    "label": "tiny-d",
+    "tails": 2,
+    "d": 0.001,
+    "alpha": 0.1,
+    "power": 0.9,
+    "ratio": 1,
+    "observed": {
+      "ncp": "2.9263915",
+      "critical_t": "1.6448537",
+      "df": "34255066",
+      "n1": "17127534",
+      "n2": "17127534",
+      "n_total": "34255068",
+      "actual_power": "0.9000000"
+    },
+    "status": "result"
+  },
+  {
+    "label": "large-d",
+    "tails": 2,
+    "d": 10,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 3.7,
+    "observed": {
+      "ncp": "8.6602540",
+      "critical_t": "4.3026527",
+      "df": "2",
+      "n1": "1",
+      "n2": "3",
+      "n_total": "4",
+      "actual_power": "0.9754623"
+    },
+    "status": "result"
+  },
+  {
+    "label": "extra-boundary",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.049999,
+    "ratio": 1,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Power must be greater than or equal to alpha."
+  },
+  {
+    "label": "extra-boundary",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.0500001,
+    "ratio": 1,
+    "observed": {
+      "ncp": "0.5000000",
+      "critical_t": "4.3026527",
+      "df": "2",
+      "n1": "2",
+      "n2": "2",
+      "n_total": "4",
+      "actual_power": "0.0615079"
+    },
+    "status": "result"
+  },
+  {
+    "label": "extra-alpha",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 1e-07,
+    "power": 0.2,
+    "ratio": 1,
+    "observed": {
+      "ncp": "4.4581386",
+      "critical_t": "5.3168989",
+      "df": "316",
+      "n1": "159",
+      "n2": "159",
+      "n_total": "318",
+      "actual_power": "0.2015611"
+    },
+    "status": "result"
+  },
+  {
+    "label": "extra-alpha",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.999,
+    "power": 0.9999,
+    "ratio": 1,
+    "observed": {
+      "ncp": "2.1505813",
+      "critical_t": "0.001257674",
+      "df": "72",
+      "n1": "37",
+      "n2": "37",
+      "n_total": "74",
+      "actual_power": "0.9999010"
+    },
+    "status": "result"
+  },
+  {
+    "label": "extra-effect",
+    "tails": 1,
+    "d": 0.0001,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 1,
+    "observed": {
+      "ncp": "2.4864764",
+      "critical_t": "1.6448536",
+      "df": "2473025908",
+      "n1": "1236512955",
+      "n2": "1236512955",
+      "n_total": "2473025910",
+      "actual_power": "0.8000004"
+    },
+    "status": "result"
+  },
+  {
+    "label": "extra-effect",
+    "tails": 2,
+    "d": 4,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 1,
+    "observed": {
+      "ncp": "4.8989795",
+      "critical_t": "2.7764451",
+      "df": "4",
+      "n1": "3",
+      "n2": "3",
+      "n_total": "6",
+      "actual_power": "0.9479378"
+    },
+    "status": "result"
+  },
+  {
+    "label": "extra-ratio",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 0.02,
+    "observed": {
+      "ncp": "2.4756187",
+      "critical_t": "1.6460394",
+      "df": "1286",
+      "n1": "1263",
+      "n2": "25",
+      "n_total": "1288",
+      "actual_power": "0.7965787"
+    },
+    "status": "result"
+  },
+  {
+    "label": "extra-ratio",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 50,
+    "observed": {
+      "ncp": "2.8006286",
+      "critical_t": "1.9614169",
+      "df": "1634",
+      "n1": "32",
+      "n2": "1604",
+      "n_total": "1636",
+      "actual_power": "0.7992714"
+    },
+    "status": "result"
+  },
+  {
+    "label": "extra-ratio",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 1.25,
+    "observed": {
+      "ncp": "2.5073422",
+      "critical_t": "1.6602343",
+      "df": "100",
+      "n1": "45",
+      "n2": "57",
+      "n_total": "102",
+      "actual_power": "0.8010749"
+    },
+    "status": "result"
+  },
+  {
+    "label": "extra-ratio",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 2.75,
+    "observed": {
+      "ncp": "2.8370373",
+      "critical_t": "1.9747158",
+      "df": "162",
+      "n1": "44",
+      "n2": "120",
+      "n_total": "164",
+      "actual_power": "0.8051660"
+    },
+    "status": "result"
+  },
+  {
+    "label": "extra-large-n",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 10,
+    "observed": {
+      "ncp": "2.4792183",
+      "critical_t": "1.6499487",
+      "df": "300",
+      "n1": "27",
+      "n2": "275",
+      "n_total": "302",
+      "actual_power": "0.7963822"
+    },
+    "status": "result"
+  },
+  {
+    "label": "extra-near-power",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.9999999,
+    "ratio": 0.5,
+    "observed": {
+      "ncp": "7.1744123",
+      "critical_t": "1.9625347",
+      "df": "924",
+      "n1": "617",
+      "n2": "309",
+      "n_total": "926",
+      "actual_power": "0.9999999"
+    },
+    "status": "result"
+  },
+  {
+    "label": "extra-near-power",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.0001,
+    "power": 0.999999,
+    "ratio": 3,
+    "observed": {
+      "ncp": "8.4963227",
+      "critical_t": "3.7280016",
+      "df": "1538",
+      "n1": "385",
+      "n2": "1155",
+      "n_total": "1540",
+      "actual_power": "0.9999990"
+    },
+    "status": "result"
+  },
+  {
+    "label": "extra-tiny-d",
+    "tails": 1,
+    "d": 1e-05,
+    "alpha": 0.001,
+    "power": 0.99,
+    "ratio": 0.3,
+    "observed": {
+      "ncp": "5.4171217",
+      "critical_t": "3.0902323",
+      "df": "1.6531e+12",
+      "n1": "1.2716e+12",
+      "n2": "381487696744",
+      "n_total": "1.6531e+12",
+      "actual_power": "0.9900195"
+    },
+    "status": "result"
+  },
+  {
+    "label": "extra-large-d",
+    "tails": 2,
+    "d": 20,
+    "alpha": 0.01,
+    "power": 0.9,
+    "ratio": 0.7,
+    "observed": {
+      "ncp": "20.0000000",
+      "critical_t": "9.9248432",
+      "df": "2",
+      "n1": "2",
+      "n2": "2",
+      "n_total": "4",
+      "actual_power": "0.9815012"
+    },
+    "status": "result"
+  },
+  {
+    "label": "heldout-error",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.01,
+    "ratio": 1.0,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Power must be greater than or equal to alpha."
+  },
+  {
+    "label": "heldout-error",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.013000000000000001,
+    "ratio": 1.5,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Power must be greater than or equal to alpha."
+  },
+  {
+    "label": "heldout-error",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.016,
+    "ratio": 2.0,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Power must be greater than or equal to alpha."
+  },
+  {
+    "label": "heldout-error",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.019000000000000003,
+    "ratio": 1.0,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Power must be greater than or equal to alpha."
+  },
+  {
+    "label": "heldout-error",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.05,
+    "power": 0.022,
+    "ratio": 1.5,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Power must be greater than or equal to alpha."
+  },
+  {
+    "label": "heldout-error",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.1,
+    "power": 0.02,
+    "ratio": 0.7,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Power must be greater than or equal to alpha."
+  },
+  {
+    "label": "heldout-error",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.1,
+    "power": 0.024,
+    "ratio": 1.0,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Power must be greater than or equal to alpha."
+  },
+  {
+    "label": "heldout-error",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.1,
+    "power": 0.028,
+    "ratio": 1.2999999999999998,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Power must be greater than or equal to alpha."
+  },
+  {
+    "label": "heldout-error",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.1,
+    "power": 0.032,
+    "ratio": 1.5999999999999999,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Power must be greater than or equal to alpha."
+  },
+  {
+    "label": "heldout-error",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.1,
+    "power": 0.036000000000000004,
+    "ratio": 0.7,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Power must be greater than or equal to alpha."
+  },
+  {
+    "label": "heldout-error",
+    "tails": 1,
+    "d": 100,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 0.5,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Effect size d is outside the admissible range (-20, 20)."
+  },
+  {
+    "label": "heldout-error",
+    "tails": 2,
+    "d": 100,
+    "alpha": 0.060000000000000005,
+    "power": 0.8,
+    "ratio": 1.0,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Effect size d is outside the admissible range (-20, 20)."
+  },
+  {
+    "label": "heldout-error",
+    "tails": 1,
+    "d": 100,
+    "alpha": 0.07,
+    "power": 0.8,
+    "ratio": 1.5,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Effect size d is outside the admissible range (-20, 20)."
+  },
+  {
+    "label": "heldout-error",
+    "tails": 2,
+    "d": 100,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 2.0,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Effect size d is outside the admissible range (-20, 20)."
+  },
+  {
+    "label": "heldout-error",
+    "tails": 1,
+    "d": 100,
+    "alpha": 0.060000000000000005,
+    "power": 0.8,
+    "ratio": 2.5,
+    "observed": {},
+    "status": "error",
+    "message": "OK | Effect size d is outside the admissible range (-20, 20)."
+  },
+  {
+    "label": "posthoc-minimum",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 0.05,
+    "n1": 2,
+    "n2": 2,
+    "status": "result",
+    "observed": {
+      "ncp": "0.5000000",
+      "critical_t": "2.9199856",
+      "df": "2",
+      "power": "0.0994117"
+    }
+  },
+  {
+    "label": "posthoc-minimum",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.05,
+    "n1": 2,
+    "n2": 3,
+    "status": "result",
+    "observed": {
+      "ncp": "0.5477226",
+      "critical_t": "3.1824463",
+      "df": "3",
+      "power": "0.0683576"
+    }
+  },
+  {
+    "label": "posthoc-minimum",
+    "tails": 1,
+    "d": 0.001,
+    "alpha": 0.05,
+    "n1": 2,
+    "n2": 100,
+    "status": "result",
+    "observed": {
+      "ncp": "0.00140028",
+      "critical_t": "1.6602343",
+      "df": "100",
+      "power": "0.0501436"
+    }
+  },
+  {
+    "label": "posthoc-large",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.05,
+    "n1": 10000,
+    "n2": 20000,
+    "status": "result",
+    "observed": {
+      "ncp": "40.8248290",
+      "critical_t": "1.9600431",
+      "df": "29998",
+      "power": "1.0000000"
+    }
+  },
+  {
+    "label": "posthoc-large",
+    "tails": 1,
+    "d": 5,
+    "alpha": 0.001,
+    "n1": 5000,
+    "n2": 5000,
+    "status": "result",
+    "observed": {
+      "ncp": "250",
+      "critical_t": "3.0910477",
+      "df": "9998",
+      "power": "1.0000000"
+    }
+  },
+  {
+    "label": "posthoc-power-alpha",
+    "tails": 2,
+    "d": 0.5,
+    "alpha": 0.5,
+    "n1": 10,
+    "n2": 20,
+    "status": "result",
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "power": "?"
+    }
+  },
+  {
+    "label": "posthoc-tiny-alpha",
+    "tails": 1,
+    "d": 0.5,
+    "alpha": 1e-06,
+    "n1": 10,
+    "n2": 20,
+    "status": "result",
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "power": "?"
+    }
+  },
+  {
+    "label": "posthoc-unequal",
+    "tails": 2,
+    "d": 10,
+    "alpha": 0.05,
+    "n1": 2,
+    "n2": 1000,
+    "status": "result",
+    "observed": {
+      "ncp": "?",
+      "critical_t": "?",
+      "df": "?",
+      "power": "?"
+    }
+  },
+  {
+    "label": "posthoc-unequal",
+    "tails": 1,
+    "d": 0.01,
+    "alpha": 0.1,
+    "n1": 3,
+    "n2": 7,
+    "status": "result",
+    "observed": {
+      "ncp": "0.0144914",
+      "critical_t": "1.3968153",
+      "df": "8",
+      "power": "0.1024362"
+    }
+  },
+  {
+    "label": "posthoc-unequal",
+    "tails": 2,
+    "d": 1,
+    "alpha": 0.999,
+    "n1": 2,
+    "n2": 2,
+    "status": "result",
+    "observed": {
+      "ncp": "1.0000000",
+      "critical_t": "0.001414214",
+      "df": "2",
+      "power": "0.9993935"
+    }
+  }
+]
